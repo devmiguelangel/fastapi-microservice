@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/*
+*.so
+
+# Editor or IDE files
+.vscode/
+.idea/
+
+# Environment-specific files
+.env
+.env.*
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Dependency directories
+lib/
+lib64/
+bin/
+include/
+lib/python*/
+
+# Compiled Python files
+*.pyc
+
+# Package cache
+__pycache__/
+
+# Type checking
+*.mypy_cache/
+.mypy_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
