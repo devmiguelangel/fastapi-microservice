@@ -2,13 +2,13 @@ version: "3.9"
 
 services:
   api:
-    image: api-project
-    container_name: api_project
+    image: devmiguelangel/ms-api
+    container_name: ms_api
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: compose/api/Dockerfile
     ports:
       - "8000:8000"
     volumes:
-      - .:/api
+      - ./api:/api
     tty: true
